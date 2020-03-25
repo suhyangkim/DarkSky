@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B4BA2962420E2AC0078B3A7 /* Poppins-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B4BA2912420E24C0078B3A7 /* Poppins-Bold.otf */; };
+		1B4BA2972420E2AC0078B3A7 /* Poppins-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B4BA2912420E24C0078B3A7 /* Poppins-Bold.otf */; };
+		1B4BA2982420E2AD0078B3A7 /* Poppins-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B4BA2912420E24C0078B3A7 /* Poppins-Bold.otf */; };
+		1B4BA2992420E2AF0078B3A7 /* Poppins-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B4BA2952420E24C0078B3A7 /* Poppins-Light.otf */; };
+		1B4BA29A2420E2B00078B3A7 /* Poppins-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B4BA2952420E24C0078B3A7 /* Poppins-Light.otf */; };
+		1B4BA29B2420E2B00078B3A7 /* Poppins-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B4BA2952420E24C0078B3A7 /* Poppins-Light.otf */; };
+		1B4BA29C2420E2B20078B3A7 /* Poppins-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B4BA2922420E24C0078B3A7 /* Poppins-Medium.otf */; };
+		1B4BA29D2420E2B30078B3A7 /* Poppins-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B4BA2922420E24C0078B3A7 /* Poppins-Medium.otf */; };
+		1B4BA29E2420E2B30078B3A7 /* Poppins-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B4BA2922420E24C0078B3A7 /* Poppins-Medium.otf */; };
+		1B4BA29F2420E2B50078B3A7 /* Poppins-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B4BA2932420E24C0078B3A7 /* Poppins-Regular.otf */; };
+		1B4BA2A02420E2B70078B3A7 /* Poppins-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B4BA2932420E24C0078B3A7 /* Poppins-Regular.otf */; };
+		1B4BA2A12420E2B70078B3A7 /* Poppins-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B4BA2932420E24C0078B3A7 /* Poppins-Regular.otf */; };
+		1B4BA2A22420E2B90078B3A7 /* Poppins-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B4BA2942420E24C0078B3A7 /* Poppins-Thin.otf */; };
+		1B4BA2A32420E2BB0078B3A7 /* Poppins-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B4BA2942420E24C0078B3A7 /* Poppins-Thin.otf */; };
+		1B4BA2A42420E2BB0078B3A7 /* Poppins-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B4BA2942420E24C0078B3A7 /* Poppins-Thin.otf */; };
+		1B5E5960241F7EF7005FF0E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E595F241F7EF7005FF0E0 /* AppDelegate.swift */; };
+		1B5E5962241F7EF7005FF0E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E5961241F7EF7005FF0E0 /* SceneDelegate.swift */; };
+		1B5E5964241F7EF7005FF0E0 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E5963241F7EF7005FF0E0 /* MainVC.swift */; };
+		1B5E5967241F7EF7005FF0E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5E5965241F7EF7005FF0E0 /* Main.storyboard */; };
+		1B5E5969241F7EFC005FF0E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B5E5968241F7EFC005FF0E0 /* Assets.xcassets */; };
+		1B5E596C241F7EFC005FF0E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5E596A241F7EFC005FF0E0 /* LaunchScreen.storyboard */; };
+		1B5E5977241F7EFC005FF0E0 /* DarkSkyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E5976241F7EFC005FF0E0 /* DarkSkyTests.swift */; };
+		1B5E5982241F7EFC005FF0E0 /* DarkSkyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E5981241F7EFC005FF0E0 /* DarkSkyUITests.swift */; };
+		1B74728D2424C82000315BFB /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B74728C2424C82000315BFB /* DetailsVC.swift */; };
+		288E6374FBBFB2E9E729E42A /* Pods_DarkSkyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA5056ADB6BC5D1ECA79F64 /* Pods_DarkSkyTests.framework */; };
+		4A1EF089173586776CFE6CBD /* Pods_DarkSky.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5BA120DE408A24864E3A227 /* Pods_DarkSky.framework */; };
+		5B7FC948DFFB8798BFB92D2E /* Pods_DarkSky_DarkSkyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F6127FB8B0CBCBD60EEB7C /* Pods_DarkSky_DarkSkyUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B5E5973241F7EFC005FF0E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B5E5954241F7EF7005FF0E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B5E595B241F7EF7005FF0E0;
+			remoteInfo = DarkSky;
+		};
+		1B5E597E241F7EFC005FF0E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B5E5954241F7EF7005FF0E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B5E595B241F7EF7005FF0E0;
+			remoteInfo = DarkSky;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B4BA2912420E24C0078B3A7 /* Poppins-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.otf"; sourceTree = "<group>"; };
+		1B4BA2922420E24C0078B3A7 /* Poppins-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.otf"; sourceTree = "<group>"; };
+		1B4BA2932420E24C0078B3A7 /* Poppins-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.otf"; sourceTree = "<group>"; };
+		1B4BA2942420E24C0078B3A7 /* Poppins-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.otf"; sourceTree = "<group>"; };
+		1B4BA2952420E24C0078B3A7 /* Poppins-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.otf"; sourceTree = "<group>"; };
+		1B5E595C241F7EF7005FF0E0 /* DarkSky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkSky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5E595F241F7EF7005FF0E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B5E5961241F7EF7005FF0E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1B5E5963241F7EF7005FF0E0 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		1B5E5966241F7EF7005FF0E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B5E5968241F7EFC005FF0E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B5E596B241F7EFC005FF0E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B5E596D241F7EFC005FF0E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B5E5972241F7EFC005FF0E0 /* DarkSkyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarkSkyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5E5976241F7EFC005FF0E0 /* DarkSkyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSkyTests.swift; sourceTree = "<group>"; };
+		1B5E5978241F7EFC005FF0E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B5E597D241F7EFC005FF0E0 /* DarkSkyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarkSkyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5E5981241F7EFC005FF0E0 /* DarkSkyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSkyUITests.swift; sourceTree = "<group>"; };
+		1B5E5983241F7EFC005FF0E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B74728C2424C82000315BFB /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		1BA5056ADB6BC5D1ECA79F64 /* Pods_DarkSkyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarkSkyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FDD86E9F2D00F938886897B /* Pods-DarkSkyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSkyTests.debug.xcconfig"; path = "Target Support Files/Pods-DarkSkyTests/Pods-DarkSkyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C900EC6228429C41FD49CB4 /* Pods-DarkSky-DarkSkyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSky-DarkSkyUITests.release.xcconfig"; path = "Target Support Files/Pods-DarkSky-DarkSkyUITests/Pods-DarkSky-DarkSkyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4060423A63593FA9FC50A812 /* Pods-DarkSky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSky.release.xcconfig"; path = "Target Support Files/Pods-DarkSky/Pods-DarkSky.release.xcconfig"; sourceTree = "<group>"; };
+		628EE9807543DC1E4905119F /* Pods-DarkSky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSky.debug.xcconfig"; path = "Target Support Files/Pods-DarkSky/Pods-DarkSky.debug.xcconfig"; sourceTree = "<group>"; };
+		764AC15D13509062AC2E05E4 /* Pods-DarkSkyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSkyTests.release.xcconfig"; path = "Target Support Files/Pods-DarkSkyTests/Pods-DarkSkyTests.release.xcconfig"; sourceTree = "<group>"; };
+		8762FB218B741763324B2E7F /* Pods-DarkSky-DarkSkyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSky-DarkSkyUITests.debug.xcconfig"; path = "Target Support Files/Pods-DarkSky-DarkSkyUITests/Pods-DarkSky-DarkSkyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		91F6127FB8B0CBCBD60EEB7C /* Pods_DarkSky_DarkSkyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarkSky_DarkSkyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5BA120DE408A24864E3A227 /* Pods_DarkSky.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarkSky.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B5E5959241F7EF7005FF0E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A1EF089173586776CFE6CBD /* Pods_DarkSky.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5E596F241F7EFC005FF0E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288E6374FBBFB2E9E729E42A /* Pods_DarkSkyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5E597A241F7EFC005FF0E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B7FC948DFFB8798BFB92D2E /* Pods_DarkSky_DarkSkyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B4BA28F2420E2150078B3A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B4BA2902420E21A0078B3A7 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1B4BA2902420E21A0078B3A7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1B4BA2912420E24C0078B3A7 /* Poppins-Bold.otf */,
+				1B4BA2952420E24C0078B3A7 /* Poppins-Light.otf */,
+				1B4BA2922420E24C0078B3A7 /* Poppins-Medium.otf */,
+				1B4BA2932420E24C0078B3A7 /* Poppins-Regular.otf */,
+				1B4BA2942420E24C0078B3A7 /* Poppins-Thin.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1B5E5953241F7EF7005FF0E0 = {
+			isa = PBXGroup;
+			children = (
+				1B5E595E241F7EF7005FF0E0 /* DarkSky */,
+				1B5E5975241F7EFC005FF0E0 /* DarkSkyTests */,
+				1B5E5980241F7EFC005FF0E0 /* DarkSkyUITests */,
+				1B5E595D241F7EF7005FF0E0 /* Products */,
+				469F5708DDD3C8586F95E1F9 /* Pods */,
+				61BB5DEA8D5C65620D5FD7B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B5E595D241F7EF7005FF0E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B5E595C241F7EF7005FF0E0 /* DarkSky.app */,
+				1B5E5972241F7EFC005FF0E0 /* DarkSkyTests.xctest */,
+				1B5E597D241F7EFC005FF0E0 /* DarkSkyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B5E595E241F7EF7005FF0E0 /* DarkSky */ = {
+			isa = PBXGroup;
+			children = (
+				1B4BA28F2420E2150078B3A7 /* Resources */,
+				1B5E595F241F7EF7005FF0E0 /* AppDelegate.swift */,
+				1B5E5961241F7EF7005FF0E0 /* SceneDelegate.swift */,
+				1B5E5963241F7EF7005FF0E0 /* MainVC.swift */,
+				1B5E5965241F7EF7005FF0E0 /* Main.storyboard */,
+				1B5E5968241F7EFC005FF0E0 /* Assets.xcassets */,
+				1B5E596A241F7EFC005FF0E0 /* LaunchScreen.storyboard */,
+				1B5E596D241F7EFC005FF0E0 /* Info.plist */,
+				1B74728C2424C82000315BFB /* DetailsVC.swift */,
+			);
+			path = DarkSky;
+			sourceTree = "<group>";
+		};
+		1B5E5975241F7EFC005FF0E0 /* DarkSkyTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B5E5976241F7EFC005FF0E0 /* DarkSkyTests.swift */,
+				1B5E5978241F7EFC005FF0E0 /* Info.plist */,
+			);
+			path = DarkSkyTests;
+			sourceTree = "<group>";
+		};
+		1B5E5980241F7EFC005FF0E0 /* DarkSkyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B5E5981241F7EFC005FF0E0 /* DarkSkyUITests.swift */,
+				1B5E5983241F7EFC005FF0E0 /* Info.plist */,
+			);
+			path = DarkSkyUITests;
+			sourceTree = "<group>";
+		};
+		469F5708DDD3C8586F95E1F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				628EE9807543DC1E4905119F /* Pods-DarkSky.debug.xcconfig */,
+				4060423A63593FA9FC50A812 /* Pods-DarkSky.release.xcconfig */,
+				8762FB218B741763324B2E7F /* Pods-DarkSky-DarkSkyUITests.debug.xcconfig */,
+				3C900EC6228429C41FD49CB4 /* Pods-DarkSky-DarkSkyUITests.release.xcconfig */,
+				2FDD86E9F2D00F938886897B /* Pods-DarkSkyTests.debug.xcconfig */,
+				764AC15D13509062AC2E05E4 /* Pods-DarkSkyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		61BB5DEA8D5C65620D5FD7B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5BA120DE408A24864E3A227 /* Pods_DarkSky.framework */,
+				91F6127FB8B0CBCBD60EEB7C /* Pods_DarkSky_DarkSkyUITests.framework */,
+				1BA5056ADB6BC5D1ECA79F64 /* Pods_DarkSkyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B5E595B241F7EF7005FF0E0 /* DarkSky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B5E5986241F7EFC005FF0E0 /* Build configuration list for PBXNativeTarget "DarkSky" */;
+			buildPhases = (
+				1AAC3B5DEBECBD9B5A973702 /* [CP] Check Pods Manifest.lock */,
+				1B5E5958241F7EF7005FF0E0 /* Sources */,
+				1B5E5959241F7EF7005FF0E0 /* Frameworks */,
+				1B5E595A241F7EF7005FF0E0 /* Resources */,
+				B2AC4FDC97ABEA1D714B03B0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarkSky;
+			productName = DarkSky;
+			productReference = 1B5E595C241F7EF7005FF0E0 /* DarkSky.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B5E5971241F7EFC005FF0E0 /* DarkSkyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B5E5989241F7EFC005FF0E0 /* Build configuration list for PBXNativeTarget "DarkSkyTests" */;
+			buildPhases = (
+				F78CBC62F534ABB6B861A5C6 /* [CP] Check Pods Manifest.lock */,
+				1B5E596E241F7EFC005FF0E0 /* Sources */,
+				1B5E596F241F7EFC005FF0E0 /* Frameworks */,
+				1B5E5970241F7EFC005FF0E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B5E5974241F7EFC005FF0E0 /* PBXTargetDependency */,
+			);
+			name = DarkSkyTests;
+			productName = DarkSkyTests;
+			productReference = 1B5E5972241F7EFC005FF0E0 /* DarkSkyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B5E597C241F7EFC005FF0E0 /* DarkSkyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B5E598C241F7EFC005FF0E0 /* Build configuration list for PBXNativeTarget "DarkSkyUITests" */;
+			buildPhases = (
+				9702A25BD5D2FD6312225180 /* [CP] Check Pods Manifest.lock */,
+				1B5E5979241F7EFC005FF0E0 /* Sources */,
+				1B5E597A241F7EFC005FF0E0 /* Frameworks */,
+				1B5E597B241F7EFC005FF0E0 /* Resources */,
+				56DB707569C8C2CA5F73AFF5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B5E597F241F7EFC005FF0E0 /* PBXTargetDependency */,
+			);
+			name = DarkSkyUITests;
+			productName = DarkSkyUITests;
+			productReference = 1B5E597D241F7EFC005FF0E0 /* DarkSkyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B5E5954241F7EF7005FF0E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Su Hyang Kim";
+				TargetAttributes = {
+					1B5E595B241F7EF7005FF0E0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					1B5E5971241F7EFC005FF0E0 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 1B5E595B241F7EF7005FF0E0;
+					};
+					1B5E597C241F7EFC005FF0E0 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 1B5E595B241F7EF7005FF0E0;
+					};
+				};
+			};
+			buildConfigurationList = 1B5E5957241F7EF7005FF0E0 /* Build configuration list for PBXProject "DarkSky" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B5E5953241F7EF7005FF0E0;
+			productRefGroup = 1B5E595D241F7EF7005FF0E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B5E595B241F7EF7005FF0E0 /* DarkSky */,
+				1B5E5971241F7EFC005FF0E0 /* DarkSkyTests */,
+				1B5E597C241F7EFC005FF0E0 /* DarkSkyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B5E595A241F7EF7005FF0E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4BA2A42420E2BB0078B3A7 /* Poppins-Thin.otf in Resources */,
+				1B5E596C241F7EFC005FF0E0 /* LaunchScreen.storyboard in Resources */,
+				1B4BA29B2420E2B00078B3A7 /* Poppins-Light.otf in Resources */,
+				1B4BA29E2420E2B30078B3A7 /* Poppins-Medium.otf in Resources */,
+				1B5E5969241F7EFC005FF0E0 /* Assets.xcassets in Resources */,
+				1B4BA2962420E2AC0078B3A7 /* Poppins-Bold.otf in Resources */,
+				1B4BA2A12420E2B70078B3A7 /* Poppins-Regular.otf in Resources */,
+				1B5E5967241F7EF7005FF0E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5E5970241F7EFC005FF0E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4BA29A2420E2B00078B3A7 /* Poppins-Light.otf in Resources */,
+				1B4BA2972420E2AC0078B3A7 /* Poppins-Bold.otf in Resources */,
+				1B4BA2A02420E2B70078B3A7 /* Poppins-Regular.otf in Resources */,
+				1B4BA29D2420E2B30078B3A7 /* Poppins-Medium.otf in Resources */,
+				1B4BA2A32420E2BB0078B3A7 /* Poppins-Thin.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5E597B241F7EFC005FF0E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4BA2992420E2AF0078B3A7 /* Poppins-Light.otf in Resources */,
+				1B4BA2982420E2AD0078B3A7 /* Poppins-Bold.otf in Resources */,
+				1B4BA29F2420E2B50078B3A7 /* Poppins-Regular.otf in Resources */,
+				1B4BA29C2420E2B20078B3A7 /* Poppins-Medium.otf in Resources */,
+				1B4BA2A22420E2B90078B3A7 /* Poppins-Thin.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AAC3B5DEBECBD9B5A973702 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DarkSky-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56DB707569C8C2CA5F73AFF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DarkSky-DarkSkyUITests/Pods-DarkSky-DarkSkyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DarkSky-DarkSkyUITests/Pods-DarkSky-DarkSkyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DarkSky-DarkSkyUITests/Pods-DarkSky-DarkSkyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9702A25BD5D2FD6312225180 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DarkSky-DarkSkyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2AC4FDC97ABEA1D714B03B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DarkSky/Pods-DarkSky-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DarkSky/Pods-DarkSky-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DarkSky/Pods-DarkSky-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F78CBC62F534ABB6B861A5C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DarkSkyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B5E5958241F7EF7005FF0E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5E5964241F7EF7005FF0E0 /* MainVC.swift in Sources */,
+				1B74728D2424C82000315BFB /* DetailsVC.swift in Sources */,
+				1B5E5960241F7EF7005FF0E0 /* AppDelegate.swift in Sources */,
+				1B5E5962241F7EF7005FF0E0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5E596E241F7EFC005FF0E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5E5977241F7EFC005FF0E0 /* DarkSkyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5E5979241F7EFC005FF0E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5E5982241F7EFC005FF0E0 /* DarkSkyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B5E5974241F7EFC005FF0E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B5E595B241F7EF7005FF0E0 /* DarkSky */;
+			targetProxy = 1B5E5973241F7EFC005FF0E0 /* PBXContainerItemProxy */;
+		};
+		1B5E597F241F7EFC005FF0E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B5E595B241F7EF7005FF0E0 /* DarkSky */;
+			targetProxy = 1B5E597E241F7EFC005FF0E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B5E5965241F7EF7005FF0E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B5E5966241F7EF7005FF0E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B5E596A241F7EFC005FF0E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B5E596B241F7EFC005FF0E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B5E5984241F7EFC005FF0E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B5E5985241F7EFC005FF0E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B5E5987241F7EFC005FF0E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 628EE9807543DC1E4905119F /* Pods-DarkSky.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DarkSky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MDB.DarkSky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B5E5988241F7EFC005FF0E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4060423A63593FA9FC50A812 /* Pods-DarkSky.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DarkSky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MDB.DarkSky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1B5E598A241F7EFC005FF0E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FDD86E9F2D00F938886897B /* Pods-DarkSkyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DarkSkyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MDB.DarkSkyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarkSky.app/DarkSky";
+			};
+			name = Debug;
+		};
+		1B5E598B241F7EFC005FF0E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 764AC15D13509062AC2E05E4 /* Pods-DarkSkyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DarkSkyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MDB.DarkSkyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarkSky.app/DarkSky";
+			};
+			name = Release;
+		};
+		1B5E598D241F7EFC005FF0E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8762FB218B741763324B2E7F /* Pods-DarkSky-DarkSkyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DarkSkyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MDB.DarkSkyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DarkSky;
+			};
+			name = Debug;
+		};
+		1B5E598E241F7EFC005FF0E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C900EC6228429C41FD49CB4 /* Pods-DarkSky-DarkSkyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DarkSkyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MDB.DarkSkyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DarkSky;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B5E5957241F7EF7005FF0E0 /* Build configuration list for PBXProject "DarkSky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5E5984241F7EFC005FF0E0 /* Debug */,
+				1B5E5985241F7EFC005FF0E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B5E5986241F7EFC005FF0E0 /* Build configuration list for PBXNativeTarget "DarkSky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5E5987241F7EFC005FF0E0 /* Debug */,
+				1B5E5988241F7EFC005FF0E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B5E5989241F7EFC005FF0E0 /* Build configuration list for PBXNativeTarget "DarkSkyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5E598A241F7EFC005FF0E0 /* Debug */,
+				1B5E598B241F7EFC005FF0E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B5E598C241F7EFC005FF0E0 /* Build configuration list for PBXNativeTarget "DarkSkyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5E598D241F7EFC005FF0E0 /* Debug */,
+				1B5E598E241F7EFC005FF0E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B5E5954241F7EF7005FF0E0 /* Project object */;
+}
